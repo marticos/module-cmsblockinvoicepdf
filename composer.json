@@ -1,0 +1,16 @@
+{
+    "name": "marticos/module-cmsblockinvoicepdf",
+    "description": "Magento 2 module to have a CMS block displayed on the bottom of the invoice PDF.",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Marticos\\CmsBlockInvoicePdf\\": ""
+        }
+    }
+}
